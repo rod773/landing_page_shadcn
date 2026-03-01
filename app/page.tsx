@@ -1,5 +1,6 @@
 import Features from "@/components/features-3";
 import HeroSection from "@/components/hero-section";
+import IntegrationsSection from "@/components/integrations-3";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <HeroSection />
       <Features />
+      <IntegrationsSection />
     </div>
   );
 }
