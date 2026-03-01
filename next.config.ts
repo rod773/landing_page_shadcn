@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         hostname: "ik.imagekit.io",
+        protocol: "https",
       },
     ],
   },
